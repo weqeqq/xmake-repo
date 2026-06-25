@@ -6,6 +6,7 @@ package("weqeqq.test")
   add_versions("0.1.0", "3052482e29240a32ec6063a0958434ce7d439299")
   add_versions("0.2.0", "bf2cbf4d11165cf97e38d2be389a4ad366ac43d2")
   add_versions("0.3.0", "v0.3.0")
+  add_versions("0.3.1", "v0.3.1")
 
   add_components("core", { default = true })
   add_components("main")
