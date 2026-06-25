@@ -9,6 +9,7 @@ package("weqeqq.test")
   add_versions("0.3.1", "v0.3.1")
   add_versions("0.3.2", "v0.3.2")
   add_versions("0.3.3", "v0.3.3")
+  add_versions("0.3.4", "v0.3.4")
 
   add_components("core", { default = true })
   add_components("main")
