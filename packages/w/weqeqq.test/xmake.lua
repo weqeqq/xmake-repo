@@ -11,14 +11,15 @@ package("weqeqq.test")
   add_versions("0.3.3", "v0.3.3")
   add_versions("0.3.4", "v0.3.4")
   add_versions("0.3.5", "v0.3.5")
+  add_versions("0.3.6", "v0.3.6")
 
   on_load(function (package) 
-    package:add("deps", "weqeqq.terminal 0.2.3")
+    package:add("deps", "weqeqq.terminal ~0.2.4")
 
     local version = package:version()
 
     if version and version:ge("0.3.0") then 
-      package:add("deps", "weqeqq.cli 0.1.0")
+      package:add("deps", "weqeqq.cli ~0.2.1")
     end
   end)
 
