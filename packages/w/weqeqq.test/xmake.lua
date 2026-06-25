@@ -10,6 +10,7 @@ package("weqeqq.test")
   add_versions("0.3.2", "v0.3.2")
   add_versions("0.3.3", "v0.3.3")
   add_versions("0.3.4", "v0.3.4")
+  add_versions("0.3.5", "v0.3.5")
 
   on_load(function (package) 
     package:add("deps", "weqeqq.terminal 0.2.3")
