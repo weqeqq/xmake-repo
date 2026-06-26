@@ -7,6 +7,7 @@ package("weqeqq.image")
 
     add_urls("https://github.com/weqeqq/wqimage.git")
     add_versions("0.3.0", "v0.3.0")
+    add_versions("0.3.1", "v0.3.1")
 
     add_configs("io",
         {description = "Build the io component (PNG + AVIF decode/encode)",
