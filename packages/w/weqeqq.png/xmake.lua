@@ -7,7 +7,7 @@ package("weqeqq.png")
     add_versions("0.1.0", "v0.1.0")
 
     add_deps("weqeqq.error ~0.2.0")
-    add_deps("weqeqq.wuffs ~0.4.0")
+    add_deps("wuffs ~0.4.0")
     add_deps("fpng")
     add_deps("weqeqq.color ~0.1.0")
     add_deps("weqeqq.parallel")
