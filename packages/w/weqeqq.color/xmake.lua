@@ -5,6 +5,7 @@
 package("weqeqq.color")
     add_urls("https://github.com/weqeqq/wqcolor.git")
     add_versions("0.1.0", "v0.1.0")
+    add_versions("0.1.1", "v0.1.1")
 
     add_deps("weqeqq.parallel")
 
